@@ -12,7 +12,7 @@ import Member from './pages/Member/Member';
 import Career from './pages/Career/Career';
 import Contact from './pages/Contact/Contact';
 import Registration from './pages/Registration/Registration';
-//import Login from './pages/Login/Login';
+import Login from './pages/Login/Login';
 import logo from './utils/images/logo.jpg';
 import Seminar from './pages/components/Events/Seminar';
 import Leadership from './pages/components/Events/Leadership';
@@ -62,6 +62,7 @@ function App() {
         <Route path='/fifthreunion' element={<FifthReunion />} />
         <Route path='/iftarparty' element={<IftarParty />} />
         <Route path='/fourthreunion' element={<FourthReunion />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
       <footer>
         <div className='container my-5'>
