@@ -1,0 +1,25 @@
+.card {
+    background-color: #f7f9fc;
+    border-color: #e9ecef;
+    margin-bottom: 10px;
+  }
+
+  .table-content{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* .card-text {
+    font-weight: bold;
+  } */
+  
+  .card-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .last-element{
+    background-color: #f7f9fc;
+    border-color: #e9ecef;
+  }
+  

@@ -1,0 +1,53 @@
+.card {
+    background-color: #f7f9fc;
+    border-color: #e9ecef;
+    margin-bottom: 10px;
+  }
+
+  .table-title{
+    font-weight: bold;
+  }
+
+  #c-content{
+    border-radius: 10px;
+    width: 300px;
+  }
+  .table-content1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .card-text {
+    font-weight: bold;
+  }
+   */
+  .card-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  #cardText{
+    padding-top: 40px;
+  }
+
+  .last-element1{
+    background-color: #f7f9fc;
+    border-color: #e9ecef;
+    margin-top: 55px;
+  }
+  
+/* #registration-closed {
+    position: fixed; Keep the message fixed on the screen 
+    top: 50%; Center the message vertically 
+    left: 50%; Center the message horizontally
+    transform: translate(-50%, -50%); Adjust positioning for centering
+    background-color: #e91e63;  Red background color
+    color: #fff; White text color
+    font-size: 2em; Text size
+    font-weight: bold; Bold text
+    padding: 20px 40px; Add padding for spacing
+    border-radius: 5px; Rounded corners
+    z-index: 999; Ensure the message appears above other elements
+  } */
+  

@@ -1,0 +1,75 @@
+.news-and-events{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background:  linear-gradient(to right, rgb(209 213 219 ), rgb(247 254 231));
+}
+
+.mar{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.underline{
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .card-body{
+    width: 240px;
+}
+
+/* .content .card-body .letter{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 25px;
+} */
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+    .news-and-events{
+        padding-top: 10px;
+    }
+    
+    .mar{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .news-and-events{
+        padding-top: 35px;
+    }
+    
+    .mar{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .news-and-events{
+        padding-top: 82px;
+    }
+    
+    .mar{
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  }

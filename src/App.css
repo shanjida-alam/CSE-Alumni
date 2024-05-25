@@ -1,38 +1,168 @@
+/* General Styles */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, p, a {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+header h1 {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(to right, #083566, #f5d72bd0);
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.navbar-nav {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav .nav-link {
+  font-family: Arial, sans-serif;
+  font-size: 14px;  /* Increased font size */
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 10px;  /* Increased margin for better spacing */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar .navbar-nav .nav-link:hover {
+  color: #564529;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Hover Effects */
+.scale-hover-effect {
+  transition: transform .5s ease;
+}
+
+.scale-hover-effect:hover {
+  transform: scale(1.05);
+}
+
+.height-75 {
+  height: 75vh;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #fff;
+  padding: 40px 0;
+  color: #333;
+  border-top: 1px solid #ddd;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-icons li {
+  list-style: none;
+}
+
+.footer-navigation li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-navigation li a {
+  color: #dc3545;
+}
+
+.footer-navigation li:hover {
+  color: #212529;
+}
+
+.footer-navigation li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social-icons li:hover svg {
+  fill: #212529;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.bg-body-tertiary {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+.bg-body-tertiary p {
+  margin: 0;
+  padding: 10px;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 992px) {
+  #basic-navbar-nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 0.375rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar .nav-link {
+    color: #212529;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header h1 {
+    font-size: 2rem;
   }
 }
