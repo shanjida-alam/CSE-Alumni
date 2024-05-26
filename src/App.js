@@ -35,14 +35,14 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/news' className='text-uppercase'>News & Events</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
-              <Nav.Link href='/gallery' className='text-uppercase'>Gallery</Nav.Link>
-              <Nav.Link href='/member' className='text-uppercase'>Member Directory</Nav.Link>
-              <Nav.Link href='/career' className='text-uppercase'>Career Opportunity</Nav.Link>
-              <Nav.Link href='/contact' className='text-uppercase'>Contact Us</Nav.Link>
-              <Nav.Link href='/registration' className='text-uppercase'>Registration/Login</Nav.Link>
+              <Nav.Link as={Link} to='/' className='text-uppercase'>Home</Nav.Link>
+              <Nav.Link as={Link} to='/news' className='text-uppercase'>News & Events</Nav.Link>
+              <Nav.Link as={Link} to='/about' className='text-uppercase'>About us</Nav.Link>
+              <Nav.Link as={Link} to='/gallery' className='text-uppercase'>Gallery</Nav.Link>
+              <Nav.Link as={Link} to='/member' className='text-uppercase'>Member Directory</Nav.Link>
+              <Nav.Link as={Link} to='/career' className='text-uppercase'>Career Opportunity</Nav.Link>
+              <Nav.Link as={Link} to='/contact' className='text-uppercase'>Contact Us</Nav.Link>
+              <Nav.Link as={Link} to='/registration' className='text-uppercase'>Registration/Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
