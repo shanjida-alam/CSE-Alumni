@@ -17,9 +17,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   padding-top: 95px;
+    
+  
 }
 .wrapper {
   background-color: transparent;
+  /* background-color: transparent; */
   border: 1.5px solid white;
   /* filter: blur(25px); */
   box-shadow: 0 0 10px black;
@@ -28,9 +31,12 @@
   padding: 40px 40px;
   margin-top: 20px;
   margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  
 }
 #form-info{
     width: 45%;
+    
 }
 /* .wrapper .dropdown .c2 {
   height: 30px;
@@ -66,6 +72,7 @@
   font-size: 16px;
   color: white;
   padding: 20px 45px 20px 20px;
+  
 }
 .input-box1 input::placeholder {
   color: white;
@@ -156,14 +163,14 @@ label {
   height: auto;
 }
 .wrapper option {
-  height: 20px;
+  height: 10px;
 }
 .dropdown .c2 {
-  height: 200px;
+  height: 20px;
 }
-/* #c33 {
+#c33 {
   padding: 50px;
-} */
+}
 section {
   padding: 20px 40px;
 }
@@ -173,7 +180,9 @@ section {
 .wrapper .dropdown .c2 {
   height: 20px;
   padding: 20px 0;
-  font-size: 35px;
+  font-size: 18px;
+  border-radius: 16px;
+  border: solid white .5px;
 }
 a {
   text-decoration: none;
