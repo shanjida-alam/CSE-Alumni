@@ -12,9 +12,9 @@ const Seminar = () => {
   const summaryData = [
     {
       title: "Total Summary",
-      memberCount: 6,
+      memberCount: 9,
       guestCount: 0,
-      totalCount: 6,
+      totalCount: 9,
       viewAllLink: { href: "#" },
     },
     // ... data for other cards (Member, Guest, Total)
@@ -23,9 +23,9 @@ const Seminar = () => {
   const PendingSummaryData = [
     {
       title: "Pending Summary",
-      memberCount: 6,
+      memberCount: 1,
       guestCount: 0,
-      totalCount: 6,
+      totalCount: 1,
       viewAllLink: { href: "#" },
     },
     // ... data for other cards (Member, Guest, Total)
@@ -34,9 +34,9 @@ const Seminar = () => {
   const ConfirmSummaryData = [
     {
       title: "Confirmed Summary",
-      memberCount: 6,
+      memberCount: 8,
       guestCount: 0,
-      totalCount: 6,
+      totalCount: 8,
       viewAllLink: { href: "#" },
     },
     // ... data for other cards (Member, Guest, Total)

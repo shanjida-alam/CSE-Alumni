@@ -47,6 +47,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      {/* <Home/> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/news' element={<News />} />
